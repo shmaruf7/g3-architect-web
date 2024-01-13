@@ -209,9 +209,7 @@ footer{
     margin-top: 50px;
     margin-bottom: 130px;
 }
-.sponsor img{
-    
-}
+
 .bottom{
     background-color: #FFF4E7;
     color: #424242;
@@ -246,13 +244,14 @@ footer{
     .exp-badge{
         left: 170px;
     }
-    .some-facts{
+    .some-facts, footer{
         margin: 0;
         padding: 20px 50px;
     }
-    .fact-cards{
+    .fact-cards, .sponsor{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 50px;
     }
  
